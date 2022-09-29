@@ -4,5 +4,59 @@
 }
 body{
     background-color: #fff;
-    background: url(../imagens/);
+    background: url(../imagens/fundo.png) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+#topo{
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png)no-repeat right top;
+    padding-top: 25px;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    margin-top: 30px;
+    background-color: #b10333;
+    float: left;
+}
+#topo ul li{
+    float: left;
+}
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a {
+    background: none;
+}
+#topo ul a:hover{
+    color: #69001d;
+}
+body.home #nav a#home,
+body.bra #nav a#bra,
+body.int #nav a#int,
+body.eco #nav a#eco,
+body.sau #nav a#sau,
+body.cien #nav a#cien,
+body.fot #nav a#fot
+{
+    color: #fff;
+    background-color: #de003e;
 }
